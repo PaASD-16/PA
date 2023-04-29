@@ -24,7 +24,7 @@ Modul yang digunakan
 - "os" digunakan untuk berinteraksi dengan sistem operasi, seperti membaca atau menulis file.
 - "time" digunakan untuk melakukan operasi terkait waktu, seperti menghitung waktu eksekusi program.
 - "re" yang akan digunakan untuk melakukan validasi ekspresi reguler.
-
+####
 - Fungsi menambahkan jadwal pada admin
 
 Blok kode dimulai dengan menerima input jadwal dari pengguna, yang harus dalam format "kota asal - kota tujuan". Kemudian, blok kode memvalidasi format input menggunakan fungsi split() dan len().
@@ -108,16 +108,28 @@ Fitur dan Fungsionalitas untuk Pelanggan:
 
 - Jika admin memilih untuk logout, program akan kembali ke menu utama.
 ![Screenshot (598)](https://user-images.githubusercontent.com/121865360/235320845-dfd146c9-4751-4741-bbd8-d5c393419405.png)
+![Screenshot (599)](https://user-images.githubusercontent.com/121865360/235321098-3511373f-d20d-4635-8543-7b9f478ceb28.png)
 
-Jika user login sebagai pelanggan maka program akan meminta email dan password pelanggan. Jika email dan password yang dimasukkan benar, program akan menampilkan menu untuk beli tiket, lihat jadwal, lihat history pembelian dan log out.
+- Jika user login sebagai pelanggan maka program akan meminta email dan password pelanggan. Jika email dan password yang dimasukkan benar, program akan menampilkan menu untuk beli tiket, lihat jadwal, lihat history pembelian dan log out.
+![Screenshot (600)](https://user-images.githubusercontent.com/121865360/235321118-a49c5ca3-47eb-47d3-a7e8-66b92bb47c74.png)
+![Screenshot (601)](https://user-images.githubusercontent.com/121865360/235321130-5951f586-3154-454a-920b-306caadbb968.png)
+![Screenshot (602)](https://user-images.githubusercontent.com/121865360/235321137-4bf0d356-0d79-4d83-992e-24c0951d6fd7.png)
 
-Jika pelanggan memilih untuk beli tiket, program akan meminta pelanggan untuk memasukkan jadwal keberangkatan dan jumlah kursi yang ingin dipesan. Jika jadwal dan jumlah kursi valid, program akan memanggil metode pesan_kursi() pada objek pelanggan.
+- Jika pelanggan memilih untuk beli tiket, program akan meminta pelanggan untuk memasukkan jadwal keberangkatan dan jumlah kursi yang ingin dipesan. Jika jadwal dan jumlah kursi valid, program akan memanggil metode pesan_kursi() pada objek pelanggan.
+![Screenshot (604)](https://user-images.githubusercontent.com/121865360/235321174-0bb09ec6-bd7f-4c6c-9c1c-b7bd41051c32.png)
+![Screenshot (606)](https://user-images.githubusercontent.com/121865360/235321184-17b0c51b-9772-4e2a-bdde-68b72246987f.png)
 
-Jika pelanggan memilih untuk lihat jadwal, program akan meminta pelanggan memasukkan kata kunci jadwal keberangkatan dan menampilkan jadwal yang tersedia. 
+- Jika pelanggan memilih untuk lihat jadwal, program akan meminta pelanggan memasukkan kata kunci jadwal keberangkatan dan menampilkan jadwal yang tersedia. 
+![Screenshot (627)](https://user-images.githubusercontent.com/121865360/235321223-733b88f5-7643-4ab9-9558-1328b9d04deb.png)
+![Screenshot (654)](https://user-images.githubusercontent.com/121865360/235321233-db957d41-9a6a-47e5-a7bf-673e998b3715.png)
 
-Jika pelanggan memilih untuk lihat history pembelian, program akan menampilkan detain jadwa keberangkatan, jam keberangkatan, kursi yang dipesan dan waktu memesan.
+- Jika pelanggan memilih untuk lihat history pembelian, program akan menampilkan detain jadwa keberangkatan, jam keberangkatan, kursi yang dipesan dan waktu memesan.
+![Screenshot (655)](https://user-images.githubusercontent.com/121865360/235321266-3226cce8-87c9-4648-9fd2-afdf5fe9dcb8.png)
+![Screenshot (656)](https://user-images.githubusercontent.com/121865360/235321274-2f647a34-65c4-47c0-8caf-8039176dd339.png)
 
-Jika pelanggan memilih untuk log out, program akan keluar dari loop dan kembali ke menu utama. Jika pelanggan memasukkan pilihan yang tidak valid, program akan menampilkan pesan kesalahan dan menampilkan menu kembali.
+- Jika pelanggan memilih untuk log out, program akan keluar dari loop dan kembali ke menu utama. Jika pelanggan memasukkan pilihan yang tidak valid, program akan menampilkan pesan kesalahan dan menampilkan menu kembali.
+![Screenshot (657)](https://user-images.githubusercontent.com/121865360/235321318-3347b7ce-1c94-45fa-a615-1e7366dcbf42.png)
+![Screenshot (599)](https://user-images.githubusercontent.com/121865360/235321331-08585222-6337-46cf-9a1a-5d7ef36b07c0.png)
 
 ### Coding
 
