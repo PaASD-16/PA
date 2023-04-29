@@ -464,3 +464,6 @@ def mulai():
 
 mulai()
 ```
+
+### Dokumentasi
+![WhatsApp Image 2023-04-17 at 21 32 53](https://user-images.githubusercontent.com/121865360/235321472-8e0df6cf-5d09-4522-ab13-cc0f4873e1c6.jpeg)
